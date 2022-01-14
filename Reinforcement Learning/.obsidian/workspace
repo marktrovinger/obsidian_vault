@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "577c01a31649f0a4",
+        "id": "0974492a254d2b3e",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Fleeting Notes/Playing Doom in Singleplayer.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Fleeting Notes/Playing Doom in Singleplayer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,6 +87,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "577c01a31649f0a4",
-  "lastOpenFiles": []
+  "active": "0974492a254d2b3e",
+  "lastOpenFiles": [
+    "Fleeting Notes/Playing Doom in Singleplayer.md",
+    "Templates/Map Of Content.md",
+    "Untitled.md",
+    "Templates/Note Template.md"
+  ]
 }
