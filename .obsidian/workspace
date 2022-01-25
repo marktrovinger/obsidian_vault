@@ -1,0 +1,96 @@
+{
+  "main": {
+    "id": "a97561cc8c925dd8",
+    "type": "split",
+    "children": [
+      {
+        "id": "3bc1e4c161b985b8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Reinforcement Learning/Fleeting Notes/A3C.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fb8f786254468c78",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e1dfc0d854dc9a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1bea95461b426309",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "94f43d4c1ebb91f1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e457826e5a8dbcb6",
+    "type": "split",
+    "children": [
+      {
+        "id": "c53cc3927bff347f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75faee966ba4e127",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Reinforcement Learning/Fleeting Notes/A3C.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3bc1e4c161b985b8",
+  "lastOpenFiles": [
+    "Reinforcement Learning/Fleeting Notes/A3C.md",
+    "Reinforcement Learning/Fleeting Notes/Playing Doom in Singleplayer.md",
+    "Untitled.md"
+  ]
+}
