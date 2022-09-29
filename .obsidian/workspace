@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reinforcement Learning/Fleeting Notes/Playing Doom in Singleplayer.md",
-            "mode": "preview",
+            "file": "Grad School/Algorithms/Hash Tables.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reinforcement Learning/Fleeting Notes/Playing Doom in Singleplayer.md",
+                "file": "Grad School/Algorithms/Hash Tables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,9 +89,13 @@
   },
   "active": "3bc1e4c161b985b8",
   "lastOpenFiles": [
-    "Reinforcement Learning/Fleeting Notes/Playing Doom in Singleplayer.md",
-    "Reinforcement Learning/Fleeting Notes/High Performance Computing.md",
     "Reinforcement Learning/Fleeting Notes/A3C.md",
+    "Grad School/Algorithms/Hash Tables.md",
+    "Reinforcement Learning/ViZDoom/ViZDoom Research Platform.md",
+    "Reinforcement Learning/Templates/Note Template.md",
+    "Reinforcement Learning/Fleeting Notes/Playing Doom in Singleplayer.md",
+    "Grad School/High Performance Computing.md",
+    "ViZDoom/ViZDoom Paper.md",
     "Untitled.md"
   ]
 }
