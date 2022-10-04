@@ -1,4 +1,4 @@
-# TensorFlow API
+# TensorFlow, Keras API
 Created: 2022-09-29 10:30
 
 * Chain rule is used for backpropagation
@@ -44,5 +44,19 @@ Created: 2022-09-29 10:30
 			* Picking the right network is more art than science
 			* Best practices and principles
 			* You know how you get to Carnegie Hall, don't you?
+		* Functions
+			* `fit()` method 
+				* `data` 
+					* inputs and targets, `NumPy` array or `TensorFlow DataSet` object
+				* `epochs` 
+				* `batch_size` 
+					* number of training samples used to compute gradients for one update step
+			* `predict`
+				* Makes predictions
+				* Iterates over data and returns an array of prediction probabilities
+		* Loss and Metrics
+			* Goal is build modes that generalize well, so that it still performs well on unseen data
+			* Don't memorize (mapping between training samples and labels)
+			* Use a validation or holdout set
 ## References
 1. 
