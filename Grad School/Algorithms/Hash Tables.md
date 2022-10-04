@@ -55,6 +55,21 @@ Created: 2022-09-29 09:26
 			* $h(k) = \lfloor km\rfloor$, which satisfies 12.1
 			* Interpret keys as large natural numbers
 				* Interpret strings as integers expressed in radix notation
+			* $m$ should be primes not too close to a power of 2
+			* If $m=2^p$, high frequency of collision occurences, as the hash key is the lowest order bits of k
+			* Division method for creating hash functions
+				* $m = \frac{n}{3}$ , where $n$ is the length of char string and 3 is the average number of elements searched, we need to be comfortable with that number
+				* hash function would be $h(k) = k \bmod 701$ , given a char length of $2000$ 
+			* Multiplication method
+				* Two steps, first multiply the key $k$ by a constant $A$ between 0 and 1 extract fractional part of $kA = (kA - \lfloor kA \rfloor)$ 
+				* Compute $\lfloor m(kA - \lfloor kA \rfloor ) \rfloor$ 
+				* The hash function $h(k) = \lfloor m(kA \bmod 1) \rfloor$ 
+* Example of hash for character strings:
+	* Uses Horner's rule, $C$ can be 128 in the case of ASCII characters
+	* $h(K) = (\sum_{i=0}^{n-1}ord(c_i))\bmod m$ 
+	* `h=0`
+	* `for(i=0 to n-1) do{`
+	* `h = (h * C + ord(ci))mod m; } ` 
 * Example:
 	* 32 bit IP address
 		* DAT:
