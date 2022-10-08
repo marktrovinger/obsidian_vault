@@ -47,9 +47,18 @@ Created: 2022-09-29 09:26
 						* Assumption 2:
 							* Search is linear and access time is $O(1)$ 
 		* Closed hashing - open addressing
+			* Store all keys without the use of a linked list
+			* No pointers are used
 		* Linear Probing
 			* For insertion, check location, if occupied, check slots downward until the end of the table. If necessary, start from the beginning of the table to first slot attempted
+		* Quadratic Probing
+			* $h(k, i) = (h'(k) + c_{1}i + c_{2}i^2)\bmod m$ 
+			* Only $m$ distinct probe sequences are used
+		* Double Hashing
+			* Uses two aux hashing functions
+			* The second hashing value must be relatively prime to $m$ for entire hash table to searched
 		* What makes a good hash function?
+			* Choose randomly from a family of algorithms instead of using a fixed function
 			* Easy to compute, minimal collisions
 			* Approximately satisfies the assumption of simple uniform hashing
 			* $h(k) = \lfloor km\rfloor$, which satisfies 12.1
@@ -62,6 +71,7 @@ Created: 2022-09-29 09:26
 				* hash function would be $h(k) = k \bmod 701$ , given a char length of $2000$ 
 			* Multiplication method
 				* Two steps, first multiply the key $k$ by a constant $A$ between 0 and 1 extract fractional part of $kA = (kA - \lfloor kA \rfloor)$ 
+					* Knuth suggests of value of A should be the golden ratio
 				* Compute $\lfloor m(kA - \lfloor kA \rfloor ) \rfloor$ 
 				* The hash function $h(k) = \lfloor m(kA \bmod 1) \rfloor$ 
 * Example of hash for character strings:
