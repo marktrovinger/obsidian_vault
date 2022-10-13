@@ -31,5 +31,19 @@ Tuning a hyperparameter based on it's performance on the validation set, you lea
 ### Evaluation Protocols
 Holdout validation, K-Fold and Iterated K-fold Validation with Shuffling. The last is used when very little data is available, often in Kaggle. Method is to apply K-fold validation multiple times, shuffling the data before splitting it $K$ ways.
 
+### Model Evaluation
+Data representativeness is important, if the training data doesn't reflect the test data in some way, you won't be able to predict on those missing classes, the solution is to shuffle data before splitting into train/test sets.
+
+Another issue is the arrow of time, which is a type of data leakage where the model basically gets a glimpse of the future. In this case, you should make sure the data in the testing set is posterior to the training data.
+
+## Balancing Optimization and Generalization
+Make sure to have some overfitting, and thus shows some generalization power, basically by beating a trivial baseline. From there, refine the generalization by fighting overfitting. The steps to achieve this are:
+
+We first need to achieve overfitting, and to do that we need to solve three different problems. The first problem is that the model doesn't train, in that the training loss doesn't decrease. The solution is to look at the settings used in SGD, as this is not likely configured correctly. Look at the optimizer, learning rate, and batch size, as batch size likely needs to be increased, as a larger batch size will be less noisy and have more information. From there, we need to beat a common sense baseline, if we can't there is likely a fundamental problem, with either the data not containing sufficient information or the model isn't fundamentally suited to the problem at hand. If the situation is that we can't overfit, it likely means the model isn't complex enough for the problem, with the solution being to increase the size and complexity of the model until performance improves.
+
+To improve generalization, we first need to look at the dataset, it is curve fitting, not magic. Spending time on data collection will be a better use of time than anything else. Going along with this, feature engineering is very important, imparting expert knowledge to the model. Early stopping is a powerful tool that will stop the training when the model loss stops improving, using the `EarlyStopping` callback (PyTorch has something similar). 
+
+Regularizing the model is a series of techniques to actively make the model worse. Some of the regularization techniques are to make the network smaller, adding weight regularization, where the size of the weights is increased. Adding dropout will also help. With weight regularization, we use Occam's Razor, which in this case means use the simpler model when possible. With a simpler model, the distribution of parameter values will have less entropy, along with fewer parameters overall and those weights will have smaller values. Using a weight penalty like L1 or L2 will regularize the weights. Doing so on a larger model will be computationally prohibitive, and most larger models have too many parameters relative to the data, in that case dropout will be helpful.
+
 ## References
 1. 
