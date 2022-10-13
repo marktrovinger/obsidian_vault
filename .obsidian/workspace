@@ -89,15 +89,15 @@
   },
   "active": "3bc1e4c161b985b8",
   "lastOpenFiles": [
-    "Grad School/Algorithms/Axiomatic Semantics.md",
-    "Reinforcement Learning/DQN Deep Dive.md",
-    "Grad School/Algorithms/Sorting Algorithms.md",
     "Grad School/Algorithms/Algorithmic Complexity.md",
+    "Grad School/Algorithms/Sorting Algorithms.md",
+    "Reinforcement Learning/DQN Deep Dive.md",
+    "Grad School/Applications of Deep Learning/Optimization and Generalization.md",
+    "Grad School/Algorithms/Axiomatic Semantics.md",
     "Grad School/Applications of Deep Learning/TensorFlow, Keras API.md",
     "Grad School/Algorithms/Hash Tables.md",
     "Reinforcement Learning/Fleeting Notes/A3C.md",
     "Reinforcement Learning/ViZDoom/ViZDoom Research Platform.md",
-    "Reinforcement Learning/Templates/Note Template.md",
-    "Reinforcement Learning/Fleeting Notes/Playing Doom in Singleplayer.md"
+    "Reinforcement Learning/Templates/Note Template.md"
   ]
 }
