@@ -19,5 +19,8 @@ The basic idea is that $log_2 n < n < n log_2 n < n^2 < n^3 < 2^n$, which means 
 For this example, think about what is the basic operation? Why is it the basic operation? What is the cost of the basic operation? 
 
 The basic operation is the comparison of an item in the array with our key, $K$. The basic operation will run at most $n$ times, which means our time complexity is $O(n)$.
+
+### Example: Fibonacci
+The basic operation for the calculation of a given Fibonacci term $n$, would be the addition of the two previous terms used in the recursive call. The space complexity would be the size of the input $n$. In the case of the iterative form of the algorithm, the time complexity would be linear for a given $n$.
 ## References
 1. 
