@@ -45,5 +45,7 @@ To improve generalization, we first need to look at the dataset, it is curve fit
 
 Regularizing the model is a series of techniques to actively make the model worse. Some of the regularization techniques are to make the network smaller, adding weight regularization, where the size of the weights is increased. Adding dropout will also help. With weight regularization, we use Occam's Razor, which in this case means use the simpler model when possible. With a simpler model, the distribution of parameter values will have less entropy, along with fewer parameters overall and those weights will have smaller values. Using a weight penalty like L1 or L2 will regularize the weights. Doing so on a larger model will be computationally prohibitive, and most larger models have too many parameters relative to the data, in that case dropout will be helpful.
 
+Dropout is a regularization technique, very commonly used in neural networks. It was developed by Hinton at Toronto. During training a certain percentage of neurons are set to zero, which introduces noise and breaks up "happenstance coincidences", Hinton refers to these as "conspiracies", think horses not zebras. Multiply the remaining nodes by the inverse of the dropout percentage (Dropout 50% of nodes -> Multiply by 2).
+
 ## References
 1. 
