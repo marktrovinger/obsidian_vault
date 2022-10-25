@@ -15,6 +15,8 @@ The framework for algorithmic analysis looks at both time efficiency and space e
 ### Order of Growth
 The basic idea is that $log_2 n < n < n log_2 n < n^2 < n^3 < 2^n$, which means that the time taken can increase not just linearly with the size of input, but even worse! 
 
+When it comes to comparing two algorithms, a convenient method is computing the limit of the ratio of the two functions in question. If the limit is 0 when n goes to infinity, $f(n)$ grows slower, if it is negative, $g(n)$ grows slower. We can also use L'Hopital's rule and Stirling's formula. We can use Stirling's formula to simplify the limits, which makes the computation much easier.
+
 ### Example: Sequential Search
 For this example, think about what is the basic operation? Why is it the basic operation? What is the cost of the basic operation? 
 
