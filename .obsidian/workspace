@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Grad School/Algorithms/Standards, Notations and Common Functions.md",
+            "file": "Grad School/Applications of Deep Learning/Advanced Keras.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grad School/Algorithms/Standards, Notations and Common Functions.md",
+                "file": "Grad School/Applications of Deep Learning/Advanced Keras.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "3bc1e4c161b985b8",
   "lastOpenFiles": [
+    "Grad School/Applications of Deep Learning/Workflow in Deep Learning.md",
+    "Grad School/Algorithms/Standards, Notations and Common Functions.md",
     "Grad School/Algorithms/Asymptotic Analysis.md",
     "Grad School/Algorithms/Algorithmic Complexity.md",
     "Reinforcement Learning/Policy Gradients.md",
     "Grad School/Applications of Deep Learning/Advanced Keras.md",
     "Grad School/Applications of Deep Learning/TensorFlow, Keras API.md",
-    "Grad School/Applications of Deep Learning/Workflow in Deep Learning.md",
     "Grad School/Applications of Deep Learning/Optimization and Generalization.md",
     "Grad School/Algorithms/Axiomatic Semantics.md",
-    "Grad School/Algorithms/Hash Tables.md",
-    "Grad School/Algorithms/Sorting Algorithms.md"
+    "Grad School/Algorithms/Hash Tables.md"
   ]
 }
