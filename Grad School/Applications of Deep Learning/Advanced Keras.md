@@ -16,7 +16,8 @@ Metrics for measuring a model's performance are builtin to Keras, but you can al
 
 Callbacks are a powerful tool to add functionality to the `fit()` method. One builtin callback is model checkpointing, `keras.callbacks.ModelCheckpoint`, which allows for saving models at different points. Early stopping is also implemented as a callback, `keras.callbacks.EarlyStopping`. Changing the learning rate is also implemented as a callback, and is a good idea in general. Tensorboard is also done as a callback, W&B as well. If you need to implement your own callback, you can subclass the `keras.callbacks.Callback` class. Pay attention to what functions need to be overloaded!
 
-
+### Writing Your Own Training Loop
+Pay attention to how different layers behave during training and inference, such as Dropout, which should not be used during inference. Also pay attention to trainable vs. non-trainable weights. 
 
 ## References
 1. 
