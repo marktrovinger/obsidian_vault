@@ -15,11 +15,19 @@ The main strategy for divide and conquer is to reduce the problem into a smaller
 Efficiency of this algorithm would be $T(1) = 0$, and $T(n) = 2T(\frac{n}{2}) + c$. 
 
 ### Analysis of Divide-and-Conquer
-In order to analyze divide and conquer algorithms, we need to make the following assumption, that for $n\leq c$ , for a given constant $c$, the time would be $\Theta(1)$. From there, we divide the problem into $a$ subproblems, where the input size would be $\frac{n}{b}$. The divide task would take $D(n)$ time, and the conquer steps would be $T(\frac{n}{b})$ for each conquer and $aT(\frac{n}{b})$ for all conquer tasks. Finally to combinem $C(n)$ time. 
+In order to analyze divide and conquer algorithms, we need to make the following assumption, that for $n\leq c$ , for a given constant $c$, the time would be $\Theta(1)$. From there, we divide the problem into $a$ subproblems, where the input size would be $\frac{n}{b}$. The divide task would take $D(n)$ time, and the conquer steps would be $T(\frac{n}{b})$ for each conquer and $aT(\frac{n}{b})$ for all conquer tasks. Finally to combine $C(n)$ time. 
 
 The final recurrence would be: 
 
 ADD THIS
+
+#### Smooth Functions
+A function can be described as smooth if on the set of natural number $n$, the function is eventually non-decreasing and $f(2n) \in \Theta(f(n))$, where $n = 1, 2, 3, ...$ To prove that a given function is smooth, first show that the function is a non-decreasing function, and then show that $f(2n) \epsilon  \Theta(f(n))$. 
+
+##### Theorem 2.2: Smoothness Rule
+
+
+### Master Theorem
 
 
 ## References
