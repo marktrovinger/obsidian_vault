@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Grad School/Algorithms/Divide-and-Conquer.md",
+                "file": "Grad School/Applications of Deep Learning/Convolutional Neural Networks.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grad School/Algorithms/Divide-and-Conquer.md",
+                "file": "Grad School/Applications of Deep Learning/Convolutional Neural Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,15 +97,15 @@
   },
   "active": "3bc1e4c161b985b8",
   "lastOpenFiles": [
+    "Grad School/Applications of Deep Learning/Convolutional Neural Networks.md",
+    "Grad School/Applications of Deep Learning/Advanced Keras.md",
+    "Grad School/Algorithms/Divide-and-Conquer.md",
     "Grad School/Algorithms/Axiomatic Semantics.md",
     "Grad School/Algorithms/Asymptotic Analysis.md",
     "Grad School/Algorithms/Algorithmic Complexity.md",
-    "Grad School/Applications of Deep Learning/Convolutional Neural Networks.md",
-    "Grad School/Applications of Deep Learning/Advanced Keras.md",
     "Grad School/Applications of Deep Learning/Optimization and Generalization.md",
     "Grad School/Applications of Deep Learning/Workflow in Deep Learning.md",
     "Grad School/Applications of Deep Learning/TensorFlow, Keras API.md",
-    "Grad School/Algorithms/Divide-and-Conquer.md",
     "Grad School/Algorithms/Standards, Notations and Common Functions.md"
   ]
 }
