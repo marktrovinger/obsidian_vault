@@ -11,6 +11,12 @@ Another method for deploying is to do edge deployment, where an edge device, suc
 
 Once a model has been deployed, you need to keep track of how it is doing!
 
+## Data Augmentation
+The main idea here is to artificially increase the size of your dataset, mainly by performing a number of random transformations on images within a dataset. 
+
+## Pretrained Model
+Using a previously trained model, one that was trained on a large-scale image classification task, for example, allows us to train a model in much shorter time. 
+
 ## References
 1. [Unreasonable Effectiveness of Data](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf)
 2. [Model Optimization](https://www.tensorflow.org/model_optimization)
