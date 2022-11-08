@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Grad School/Applications of Deep Learning/Convolutional Neural Networks.md",
+                "file": "Grad School/Algorithms/Divide-and-Conquer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3064e81ac36e1492",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Grad School/Algorithms/Quicksort.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grad School/Applications of Deep Learning/Convolutional Neural Networks.md",
+                "file": "Grad School/Algorithms/Quicksort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,14 +108,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3bc1e4c161b985b8",
+  "active": "3064e81ac36e1492",
   "lastOpenFiles": [
+    "Grad School/Algorithms/Divide-and-Conquer.md",
+    "Grad School/Algorithms/Algorithmic Complexity.md",
+    "Grad School/Algorithms/Asymptotic Analysis.md",
     "Grad School/Applications of Deep Learning/Convolutional Neural Networks.md",
     "Grad School/Applications of Deep Learning/Advanced Keras.md",
-    "Grad School/Algorithms/Divide-and-Conquer.md",
     "Grad School/Algorithms/Axiomatic Semantics.md",
-    "Grad School/Algorithms/Asymptotic Analysis.md",
-    "Grad School/Algorithms/Algorithmic Complexity.md",
     "Grad School/Applications of Deep Learning/Optimization and Generalization.md",
     "Grad School/Applications of Deep Learning/Workflow in Deep Learning.md",
     "Grad School/Applications of Deep Learning/TensorFlow, Keras API.md",

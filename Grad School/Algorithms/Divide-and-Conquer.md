@@ -19,7 +19,10 @@ In order to analyze divide and conquer algorithms, we need to make the following
 
 The final recurrence would be: 
 
-ADD THIS
+$$
+\begin{cases}
+\end{cases}
+$$
 
 #### Smooth Functions
 A function can be described as smooth if on the set of natural number $n$, the function is eventually non-decreasing and $f(2n) \in \Theta(f(n))$, where $n = 1, 2, 3, ...$ To prove that a given function is smooth, first show that the function is a non-decreasing function, and then show that $f(2n) \epsilon  \Theta(f(n))$. 
@@ -28,7 +31,7 @@ A function can be described as smooth if on the set of natural number $n$, the f
 
 
 ### Master Theorem
-
+The same recurrence relation $T(n)$ can be reduced to a piecewise function, depending on the value of $a$. The main use (in our case) of Master Theorem is that it is a convenient tool for a quick analysis of both divide-and-conquer and decreasing-by-a-constant algorithms. Using it, as long as we know (or can compute) the constants $a, b, d$, we can use the piecewise function to determine the time efficiency of the recurrence relation in question.
 
 ## References
 1. Introduction to Algorithms, Chapter 4
