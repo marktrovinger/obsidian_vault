@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e43575ebb2f6c98c",
+        "id": "1a1c1c84fa307267",
         "type": "tabs",
         "children": [
           {
-            "id": "3bc1e4c161b985b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grad School/Algorithms/Divide-and-Conquer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3064e81ac36e1492",
+            "id": "3c4425e4d7df4954",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,17 +95,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3064e81ac36e1492",
+  "active": "3c4425e4d7df4954",
   "lastOpenFiles": [
     "Grad School/Applications of Deep Learning/Advanced Keras.md",
     "Grad School/Applications of Deep Learning/Workflow in Deep Learning.md",
-    "Grad School/Applications of Deep Learning/Convolutional Neural Networks.md",
-    "Grad School/Algorithms/Quicksort.md",
-    "Grad School/Algorithms/Divide-and-Conquer.md",
-    "Grad School/Algorithms/Algorithmic Complexity.md",
-    "Grad School/Algorithms/Asymptotic Analysis.md",
-    "Grad School/Algorithms/Axiomatic Semantics.md",
     "Grad School/Applications of Deep Learning/Optimization and Generalization.md",
-    "Grad School/Applications of Deep Learning/TensorFlow, Keras API.md"
+    "Grad School/Applications of Deep Learning/Convolutional Neural Networks.md",
+    "Grad School/Algorithms/Decrease-and-Conquer.md",
+    "Grad School/Algorithms/Divide-and-Conquer.md",
+    "Grad School/Algorithms/Asymptotic Analysis.md",
+    "Grad School/Algorithms/Algorithmic Complexity.md",
+    "Grad School/Algorithms/Quicksort.md",
+    "Grad School/Algorithms/Axiomatic Semantics.md"
   ]
 }
