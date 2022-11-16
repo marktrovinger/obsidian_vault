@@ -22,5 +22,14 @@ Padding can be added to a Conv2D layer via the padding argument, "valid" is no p
 ### Stride
 Distance between successive convolutional windows is known as the stride, with the default being 1. 
 
+### Modularity Hierarchy Formula
+Use modules instead of spaghetti code, organize those modules into a hierarchy and reuse those modules as much as possible. We want to reuse as much as possible, so create abstractions when possible. As always, Don't Repeat Yourself.
+
+### Residual Connections
+Designed to help combat the vanishing gradients issue, which happens when networks get too deep.
+
+### Batch Normalization
+Gradients go boom!
+
 ## References
 1. Deep Learning With Python, Chapter 8
