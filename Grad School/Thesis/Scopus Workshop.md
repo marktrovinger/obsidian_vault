@@ -1,0 +1,1 @@
+An index of citation database, indexes articles conference proceedings, and similar. Ties into SciMago for impact ranking. Uses curly brackets for exact phrase, quotation marks for close phrase, and an asterisk for wildcard. Layered searching doesn't work very well, so add more search field boxes instead of layered. Use RIS for Zotero, and you can create alerts.
