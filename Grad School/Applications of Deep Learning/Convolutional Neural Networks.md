@@ -31,5 +31,14 @@ Designed to help combat the vanishing gradients issue, which happens when networ
 ### Batch Normalization
 Gradients go boom!
 
+## Interpretability
+Why do classifiers think that an image is what it says it is? There are different techniques for visualizing what convnets learn and understand the decisions made; intermediate activations, convnet fliters, and heatmaps of classes.
+
+### Intermediate Activations
+For a given input, display the values returned by conv and pooling layers. The activation (or feature map) will be visualized with three dimensions $(H \times W \times C)$. Plot the contents of every channel as a 2D image. 
+
+### Convnet Filters
+We want to show what visual pattern that each filter is meant to respond to, which is gradient ascent in the input space.
+
 ## References
 1. Deep Learning With Python, Chapter 8
