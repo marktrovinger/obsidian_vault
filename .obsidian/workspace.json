@@ -78,9 +78,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7d74860b0174b2fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Grad School/Thesis/Mini-AlphaStar.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0e6a41531ec7844c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Grad School/Algorithms/String Matching.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -138,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grad School/Applications of Deep Learning/Convolutional Neural Networks.md",
+                "file": "Grad School/Algorithms/String Matching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,17 +180,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c94161aa7a4b55ee",
+  "active": "0e6a41531ec7844c",
   "lastOpenFiles": [
+    "Grad School/Thesis/Mini-AlphaStar.md",
+    "Grad School/Applications of Deep Learning/Convolutional Neural Networks.md",
     "Grad School/Applications of Deep Learning/Recurrent Neural Networks.md",
     "Grad School/Algorithms/Transform-and-Conquer.md",
     "Grad School/Algorithms/Breadth-First Search.md",
     "Grad School/Algorithms/Decrease-and-Conquer.md",
     "Grad School/Algorithms/Divide-and-Conquer.md",
     "Grad School/Thesis/Scopus Workshop.md",
-    "Grad School/Applications of Deep Learning/Convolutional Neural Networks.md",
     "Grad School/Applications of Deep Learning/Advanced Keras.md",
-    "Grad School/Applications of Deep Learning/Workflow in Deep Learning.md",
-    "Grad School/Thesis/Trajectory Transformer.md"
+    "Grad School/Applications of Deep Learning/Workflow in Deep Learning.md"
   ]
 }
