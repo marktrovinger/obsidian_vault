@@ -97,14 +97,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Grad School/Algorithms/String Matching.md",
+                "file": "Grad School/Applications of Deep Learning/Convolutional Neural Networks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e88d0402ed3a9582",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Grad School/Applications of Deep Learning/Image Generation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -162,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grad School/Algorithms/String Matching.md",
+                "file": "Grad School/Applications of Deep Learning/Image Generation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,17 +192,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0e6a41531ec7844c",
+  "active": "e88d0402ed3a9582",
   "lastOpenFiles": [
-    "Grad School/Thesis/Mini-AlphaStar.md",
     "Grad School/Applications of Deep Learning/Convolutional Neural Networks.md",
     "Grad School/Applications of Deep Learning/Recurrent Neural Networks.md",
+    "Grad School/Algorithms/String Matching.md",
+    "Grad School/Thesis/Mini-AlphaStar.md",
     "Grad School/Algorithms/Transform-and-Conquer.md",
     "Grad School/Algorithms/Breadth-First Search.md",
     "Grad School/Algorithms/Decrease-and-Conquer.md",
     "Grad School/Algorithms/Divide-and-Conquer.md",
     "Grad School/Thesis/Scopus Workshop.md",
-    "Grad School/Applications of Deep Learning/Advanced Keras.md",
-    "Grad School/Applications of Deep Learning/Workflow in Deep Learning.md"
+    "Grad School/Applications of Deep Learning/Advanced Keras.md"
   ]
 }
