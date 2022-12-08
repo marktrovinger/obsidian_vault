@@ -8,115 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3c4425e4d7df4954",
+            "id": "edaeaefcdccb217a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Grad School/Algorithms/Decrease-and-Conquer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49e9b79a11379242",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grad School/Applications of Deep Learning/Convolutional Neural Networks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c49ca81eafcc60d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grad School/Applications of Deep Learning/Convolutional Neural Networks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d192751eae3bd371",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grad School/Applications of Deep Learning/Recurrent Neural Networks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ca9288333cf079f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grad School/Algorithms/Breadth-First Search.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c94161aa7a4b55ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grad School/Applications of Deep Learning/Convolutional Neural Networks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d74860b0174b2fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grad School/Thesis/Mini-AlphaStar.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0e6a41531ec7844c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grad School/Applications of Deep Learning/Convolutional Neural Networks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e88d0402ed3a9582",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grad School/Applications of Deep Learning/Image Generation.md",
+                "file": "Grad School/Algorithms/Heaps and Heapsort.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grad School/Applications of Deep Learning/Image Generation.md",
+                "file": "Grad School/Algorithms/Heaps and Heapsort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,17 +95,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e88d0402ed3a9582",
+  "active": "edaeaefcdccb217a",
   "lastOpenFiles": [
+    "Grad School/Applications of Deep Learning/Image Generation.md",
     "Grad School/Applications of Deep Learning/Convolutional Neural Networks.md",
-    "Grad School/Applications of Deep Learning/Recurrent Neural Networks.md",
-    "Grad School/Algorithms/String Matching.md",
     "Grad School/Thesis/Mini-AlphaStar.md",
-    "Grad School/Algorithms/Transform-and-Conquer.md",
     "Grad School/Algorithms/Breadth-First Search.md",
+    "Grad School/Applications of Deep Learning/Recurrent Neural Networks.md",
+    "Grad School/Algorithms/Heaps and Heapsort.md",
+    "Grad School/Algorithms/String Matching.md",
+    "Grad School/Algorithms/Transform-and-Conquer.md",
     "Grad School/Algorithms/Decrease-and-Conquer.md",
-    "Grad School/Algorithms/Divide-and-Conquer.md",
-    "Grad School/Thesis/Scopus Workshop.md",
-    "Grad School/Applications of Deep Learning/Advanced Keras.md"
+    "Grad School/Algorithms/Divide-and-Conquer.md"
   ]
 }
