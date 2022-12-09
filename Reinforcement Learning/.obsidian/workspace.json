@@ -4,16 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0974492a254d2b3e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Fleeting Notes/A3C.md",
-            "mode": "source",
-            "source": false
+        "id": "c8a92b3b096da1fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0974492a254d2b3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/A3C.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        }
+        ]
       }
     ],
     "direction": "vertical"
@@ -31,7 +37,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -87,7 +95,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0974492a254d2b3e",
+  "active": "5e3f62d3d5dda143",
   "lastOpenFiles": [
     "Fleeting Notes/A3C.md",
     "Fleeting Notes/High Performance Computing.md",

@@ -22,7 +22,15 @@ Once the research questions have been decided, the next step the author took was
 The search queries returned 46 papers in IEEE, 36 in ACM, and 55 in Science Direct, these numbers are raw numbers, and will change when a closer examination is done later. 
 
 ### Search Process
-The paper states more explicity what the inclusion/exclusion criteria are, and also discusses that the abstract for each paper was read, and discarded if necessary. Once the search process was completed, there are a total of 46 papers that made the cut, with 18 from IEEE, 15 from ACM, and 13 from Science Direct. I find this result not surprising, as both IEEE and ACM are focused on  computing and Science Direct is more general.
+The paper states more explicity what the inclusion/exclusion criteria are, and also discusses that the abstract for each paper was read, and discarded if necessary. Once the search process was completed, there are a total of 46 papers that made the cut, with 18 from IEEE, 15 from ACM, and 13 from Science Direct. I find this result not surprising, as both IEEE and ACM are focused on computing and Science Direct is more general.
+
+## Results and Discussion
+The results section details the algorithms that were selected in course of the search process, and covers many of the algorithms that I have spent time with, such as DDPG, DQN, SARSA, TD, PPO, and others. This section (well, sections) only give a brief overview of the approach in question, as this section is meant to answer the first research question for each algorithm. The section detailing the second research question, having to do with evaluation metrics, probably needs a closer reading, as I am seeing several metrics that I have not encountered before.
+
+The third research question is addressed by the paper in Table 6, and gives a brief summary of the positive and negative aspects of the approach taken in the referenced paper. This section also needs a closer read, as it does a good job of synthesizing what are the positives and negatives of each approach. Figure 8 in the paper is breakdown of what field each paper in the study belongs to.
+
+## Conclusion
+There isn't a lot yet to glean from this paper, although a closer reading might change my mind.
 
 
 
