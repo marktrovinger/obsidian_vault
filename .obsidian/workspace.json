@@ -30,9 +30,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e5a3bf003353f3bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Grad School/Thesis/CUDA Programming.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b3ae9bc7fd92ec6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Grad School/Thesis/PPO vs. Arnold.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -90,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grad School/Thesis/Reinforcement Learning - A Systematic Literature Review.md",
+                "file": "Grad School/Thesis/PPO vs. Arnold.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,8 +132,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a115218e343126ad",
+  "active": "b3ae9bc7fd92ec6d",
   "lastOpenFiles": [
+    "Grad School/Thesis/CUDA Programming.md",
+    "Grad School/Thesis/Reinforcement Learning - A Systematic Literature Review.md",
     "Grad School/Algorithms/Heaps and Heapsort.md",
     "Grad School/Applications of Deep Learning/Image Generation.md",
     "Grad School/Applications of Deep Learning/Convolutional Neural Networks.md",
@@ -117,8 +143,6 @@
     "Grad School/Algorithms/Breadth-First Search.md",
     "Grad School/Applications of Deep Learning/Recurrent Neural Networks.md",
     "Grad School/Algorithms/String Matching.md",
-    "Grad School/Algorithms/Transform-and-Conquer.md",
-    "Grad School/Algorithms/Decrease-and-Conquer.md",
-    "Grad School/Algorithms/Divide-and-Conquer.md"
+    "Grad School/Algorithms/Transform-and-Conquer.md"
   ]
 }
