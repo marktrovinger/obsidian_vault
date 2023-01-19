@@ -17,5 +17,8 @@ Look over what the operators do for regex (? * +).
 ## Anchors
 Anchors are characters that prefix or suffix strings, `^` for the beginning, and `$` for the end of a string.
 
+## Byte Pair Encoding
+Not needed in this course, but really interesting!
+
 ## References
 1. 
