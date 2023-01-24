@@ -1,0 +1,7 @@
+The question we want to ask is "How similar are two strings?", which has applications in spell correction for example. Another use is computational biology, where we want to align two neucleotide sequences. 
+
+## Minimum Edit Distance
+It is the minimum number of operations needed to go from one string to another, with the ops being insertion, deletion, and substitution. When we have two strings, we need to look at the alignment. In the example given, the edit distance would be 5 between the two. We can think of substitution as having a cost of two, as it is a combination of deletion and insertion, so under this scheme, the cost would be 8.
+
+### Finding Min Edit Distance
+To find this value, we would search along a path from a start string to a final string, where the path is a sequence of edits. We want to minimize the path cost along the way, but minimizing the number of edits used. The state space in this problem is huge, we need to be smart about checking the paths. We do this by only keeping the shortest path. We use dynamic programming to create a tabular computation of $D(n,m)$ and solve this problem by combining solutions to subproblems. Once the table has been filled, we need to backtrace back from edit distance value. This allows us to trace back the path to find the operations that make up the min edit distance.

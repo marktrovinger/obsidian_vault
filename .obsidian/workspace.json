@@ -8,42 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2dc134056c1daafe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grad School/Thesis/Decision Transformer/Analysis Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a8c851cb5854b50d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grad School/NLP/Introduction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "697496cb0e9475d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grad School/Thesis/Decision Transformer/Analysis Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fbee62b692cb5eb4",
             "type": "leaf",
             "state": {
@@ -54,9 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b4dac287bfc65f6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Grad School/NLP/Edit Distance.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d0083df6181658ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Grad School/GTA/Agenda - Lab Week 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -114,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grad School/Thesis/Decision Transformer/Analysis Notes.md",
+                "file": "Grad School/GTA/Agenda - Lab Week 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,17 +130,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "fbee62b692cb5eb4",
+  "active": "d0083df6181658ba",
   "lastOpenFiles": [
-    "Grad School/GTA/Student Meetings.md",
     "Grad School/Thesis/Decision Transformer/Analysis Notes.md",
-    "Grad School/NLP/Basic Text Processing.md",
+    "Grad School/GTA/Agenda - Lab Week 3.md",
+    "Grad School/NLP/Edit Distance.md",
     "Grad School/NLP/Introduction.md",
+    "Grad School/GTA/Student Meetings.md",
+    "Grad School/NLP/Basic Text Processing.md",
     "Grad School/Applications of Deep Learning/Recurrent Neural Networks.md",
     "Grad School/Applications of Deep Learning/Optimization and Generalization.md",
     "Grad School/Applications of Deep Learning/Image Generation.md",
-    "Grad School/Applications of Deep Learning/Advanced Keras.md",
-    "Grad School/Applications of Deep Learning/TensorFlow, Keras API.md",
-    "Grad School/Applications of Deep Learning/Workflow in Deep Learning.md"
+    "Grad School/Applications of Deep Learning/Advanced Keras.md"
   ]
 }
