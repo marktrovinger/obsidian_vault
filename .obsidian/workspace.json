@@ -25,26 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Grad School/NLP/Edit Distance.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d0083df6181658ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grad School/GTA/Agenda - Lab Week 3.md",
+                "file": "Grad School/Thesis/Decision Transformer/Analysis Notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grad School/GTA/Agenda - Lab Week 3.md",
+                "file": "Grad School/Thesis/Decision Transformer/Analysis Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,17 +118,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "d0083df6181658ba",
+  "active": "b4dac287bfc65f6d",
   "lastOpenFiles": [
-    "Grad School/Thesis/Decision Transformer/Analysis Notes.md",
-    "Grad School/GTA/Agenda - Lab Week 3.md",
     "Grad School/NLP/Edit Distance.md",
+    "README.md",
+    "Grad School/GTA/Agenda - Lab Week 3.md",
+    "Grad School/Thesis/Decision Transformer/Analysis Notes.md",
     "Grad School/NLP/Introduction.md",
     "Grad School/GTA/Student Meetings.md",
     "Grad School/NLP/Basic Text Processing.md",
     "Grad School/Applications of Deep Learning/Recurrent Neural Networks.md",
     "Grad School/Applications of Deep Learning/Optimization and Generalization.md",
-    "Grad School/Applications of Deep Learning/Image Generation.md",
-    "Grad School/Applications of Deep Learning/Advanced Keras.md"
+    "Grad School/Applications of Deep Learning/Image Generation.md"
   ]
 }
