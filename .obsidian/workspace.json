@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fb55f5cfefa99420",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Grad School/NLP/Naive Bayes and Sentiment Classification.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grad School/Thesis/Decision Transformer/Analysis Notes.md",
+                "file": "Grad School/NLP/Naive Bayes and Sentiment Classification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,10 +118,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b389144c589b47b1",
+  "active": "fb55f5cfefa99420",
   "lastOpenFiles": [
-    "Grad School/GTA/Agenda - Lab Week 4.md",
     "Grad School/Thesis/Decision Transformer/Analysis Notes.md",
+    "Grad School/GTA/Agenda - Lab Week 4.md",
     "Grad School/NLP/n-grams.md",
     "Grad School/GTA/Agenda - Lab Week 3.md",
     "Grad School/NLP/Edit Distance.md",
