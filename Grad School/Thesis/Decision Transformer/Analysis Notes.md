@@ -10,7 +10,7 @@ Created: 2023-01-20 21:12
 * The raw data is massaged into the right form by the `StateActionReturnDataset` class, which puts it into a form needed by the transformer
 * The `state_encoder` looks very similar to the preprocessing done in the Nature paper for DQN, ask Perusha what she thinks
 * Format for data for next week, make sure VizDoom can generate some data before next week, start with SB3 to generate data, look at Dopamine
-* Add Perusha Moodley as collaborator
+* Add Perusha Moodley as collaborator to GitHub project
  
 ## References
 1. https://github.com/google/dopamine
