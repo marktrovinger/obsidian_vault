@@ -19,3 +19,21 @@ We first get the vocabulary from the document, calculate out the prior, and then
 
 ### Unknown Words
 How do we handle words that we haven't seen before? Ignore them!
+
+## Sentiment Analysis - Optimization
+Word occurence is more important than frequency
+
+### Negation
+Negation changes the meaning of a given word from positive to negative, one way to handle this is to add a NOT_ to every word between negation and following punctuation:
+
+didn't like this movie -> did NOT_like this movie
+
+### Lexicons
+Pre-built word lists are called lexicons, example is the MPQA Subjectivity 
+
+We use these by adding a feature that gets a count whenever a word from the lexicon appears.
+
+## Other Tasks: Spam, Language ID
+
+
+### Binary Multinomial Naive Bayes
