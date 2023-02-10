@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "38107a8cf485c188",
+        "id": "eef0eee8acdfce5b",
         "type": "tabs",
         "children": [
           {
-            "id": "e3b6abb2a251c064",
+            "id": "1235888c8be9fa51",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Grad School/NLP/Naive Bayes and Sentiment Classification.md",
+                "file": "Grad School/Thesis/Decision Transformer/Sample Factory Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grad School/NLP/Naive Bayes and Sentiment Classification.md",
+                "file": "Grad School/Thesis/Decision Transformer/Sample Factory Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,17 +105,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e3b6abb2a251c064",
+  "active": "1235888c8be9fa51",
   "lastOpenFiles": [
     "Grad School/GTA/Agenda - Lab Week 5.md",
-    "Grad School/GTA/Agenda - Lab Week 4.md",
+    "Grad School/Thesis/Decision Transformer/Sample Factory Notes.md",
     "Grad School/Thesis/Decision Transformer/Analysis Notes.md",
     "Grad School/NLP/Naive Bayes and Sentiment Classification.md",
+    "Grad School/GTA/Agenda - Lab Week 4.md",
     "Grad School/NLP/n-grams.md",
     "Grad School/GTA/Agenda - Lab Week 3.md",
     "Grad School/NLP/Edit Distance.md",
     "README.md",
-    "Grad School/NLP/Introduction.md",
-    "Grad School/GTA/Student Meetings.md"
+    "Grad School/NLP/Introduction.md"
   ]
 }
