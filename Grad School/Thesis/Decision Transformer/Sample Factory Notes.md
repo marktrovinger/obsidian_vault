@@ -10,3 +10,4 @@ python -m sf_examples.vizdoom.train_vizdoom --env=doom_battle --train_for_env_st
 - `doom_gym` handles the wrapping of the VizDoom environment, and might be a promising candidate to use if we need to use Dopamine instead, as it provides a fairly smooth (thus far) interface, including a step function needed to conform to the gym interface
 - `_get_minibatches` in `learner.py` might be a good place to test saving experience replay buffer, or at least adding transistions to the buffer, test this in debug
 - Design idea: train on PPO using SF for a very high timestep count (10M or more) or until convergence, and sample only 500k from after the point at which the model converges
+- replace the env in trainer_doom with our environment
