@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grad School/NLP/Logistic Regression.md",
+                "file": "Grad School/Thesis/Decision Transformer/Meeting Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,8 +130,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f8f3a6c29859d492",
+  "active": "48bde152eaaa76af",
   "lastOpenFiles": [
+    "Grad School/NLP/Logistic Regression.md",
     "Grad School/Thesis/Decision Transformer/Meeting Notes.md",
     "Grad School/Thesis/Decision Transformer/Sample Factory Notes.md",
     "Grad School/GTA/Agenda - Lab Week 5.md",
@@ -140,7 +141,6 @@
     "Grad School/GTA/Agenda - Lab Week 4.md",
     "Grad School/NLP/n-grams.md",
     "Grad School/GTA/Agenda - Lab Week 3.md",
-    "Grad School/NLP/Edit Distance.md",
-    "README.md"
+    "Grad School/NLP/Edit Distance.md"
   ]
 }
