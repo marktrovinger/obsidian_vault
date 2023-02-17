@@ -1,0 +1,7 @@
+- Attendance
+- Near Midpoint Checkup
+	- Questions/concerns about Lab
+- Lab 4 Overview
+	- Due Feb 19 11:59 PM
+	- You don't need to verify
+	- `roman.charAt(0)` for top most level
