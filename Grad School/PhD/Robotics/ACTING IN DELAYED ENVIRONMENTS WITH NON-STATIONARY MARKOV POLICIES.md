@@ -1,0 +1,8 @@
+- 2023 paper
+- Code:
+	- https://github.com/galdl/rl_delay_basic
+- Future:
+	- Extended to policy-gradient methods, for continuous control 
+	- Extend for real world in either variable or constant delay
+	- Can we extend to robotics scenarios?
+	- How do we model delay in robotics?

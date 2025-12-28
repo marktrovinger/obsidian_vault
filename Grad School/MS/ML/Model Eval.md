@@ -1,0 +1,16 @@
+- We are in the Eval phase of CRISP-DM
+- How good (or bad) is the model we built?
+## Misclassification Rate & Holdout Set
+- Test Set
+	- Also known as a hold-out set, data the model has never seen before
+	- No peeking, model!
+	- Generalize, or how well does the model do on unseen data?
+- Performance Measure
+	- What metric are we using?
+	- Misclassification Rate
+		- Confusion Matrix
+			- TP, FP, FN, TN
+	- Accuracy
+	- Precision
+	- Recall
+	- F1

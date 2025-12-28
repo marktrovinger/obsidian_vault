@@ -1,0 +1,37 @@
+- Constructed incrementally, the idea is to connect disparate a new vertex to the existing connections
+- Samples are sparsely sampled
+- Two phases:
+	- construction
+		- a random config is created
+		- Components:
+			- Free space
+			- Milestones (nodes)
+			- local path
+			- Start and goal
+	- query
+		- start and goal configs are connected
+		- collision detection `GoodP.m` method in MATLAB
+		- shortest path is found using Dijkstra's
+		- Multi Query
+			- Assumes multiple obstacles
+	- May need to resample if no solution is found within some constraints
+		- Uniform sampling
+			- Create a graph, init with empty set for $V$ and $E$
+- Doesn't compute the $C$-space explicitly, rather sample it
+- Doesn't cross any obstacles
+- Collision detection improvements lead to overall improvements
+- PSPACE-hard problem for classic path planning
+	- PSPACE can be solved in polynomial time
+- Implementation
+	- Main with sampling
+	- Subroutines
+		- Map
+		- Random
+		- Viz?
+- Difficulties
+	- Failure rate
+		- $r(q) = \frac{no. failed LINK}{no. LINK}$ 
+	- Weight
+		- $w(q) = \frac{r(q)}{\sum_p r(p)}$ 
+	- Resample probability
+		- $Pr(q) = w(q)$

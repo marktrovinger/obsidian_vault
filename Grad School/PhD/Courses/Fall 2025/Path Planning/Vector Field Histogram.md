@@ -1,0 +1,18 @@
+- improved versions are VFH+ and VFH*
+- uses only recent sensor data
+- probability of an obstacle in cell
+- generates a polar histogram
+- represented in a grid (2DOF)
+- calculate steering direction
+- cost function $G = a\cdot \verb|target_direction| + b\cdot \verb|wheel_orientation| + c \cdot \verb|previous_direction|$ 
+- computationally efficient
+- dimension reduction 3D->2D->1D
+- creates a statistical representation of the environment
+- components
+	- cartesian histogram
+	- polar histogram
+	- candidate valley
+- Be able to draw polar histogram from overhead shot of robot, find a protractor
+- Path smoothing is important in rescue ops
+- Bayes and other methods used to calc probability of occupancy
+- 

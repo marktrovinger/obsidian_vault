@@ -1,0 +1,13 @@
+- 2021 paper
+- 2 simulators
+	- CoppeliaSim and Visual Components
+- Focused on industrial robots
+	- Seems to be a theme when talking about grasping/manip tasks
+- Friction is big problem, as mentioned in [[Quantifying the Reality Gap in Robotic Manipulation Tasks]]
+- Four physics systems were examined
+	- PhysX by NVIDIA for VC
+	- Bullet 2.78, Bullet 2.83, Vortex and ODE for CoppeliaSim
+- Experiments:
+	- Pick and Place: Cuboid and Sphere
+	- Similar to [[Towards Building AI-CPS with NVIDIA Isaac Sim - An Industrial Benchmark and Case Study for Robotics Manipulation]]
+- I need to look at RoboSuite

@@ -1,0 +1,30 @@
+## Models for Algorithmic Design
+- different algorithms require different arch
+- design a new algo for each arch
+- Universal Abstract Model
+	- can be ported to specific computers
+	- written for the abstract
+	- performance can be predicted ahead of time
+	- requirements:
+		- general enough to capture important properties of the class of parallel computers
+		- execute efficiently on parallel computers
+		- problem:
+			- goals conflict
+			- connectivity assumptions for linear arrays and meshes: low, for hypercubes: high
+			- if you design for one (low) than you will have sub-optimal performance on the other (high in this case)
+			- ultimately, can't build a model that satisfies both
+			- No such model currently exists or is known
+		- Today:
+			- basic communication operations
+			- only implementation of these ops must be optimized for different parallel computer
+			- only a small set of communication ops
+			- concurrency vs. locality
+- Example:
+	- Matrix multiplication
+		- $A, B$ are $n \cdot n$ matrices, $n=4$
+		- $C = AB$ where $C_{i,j} = \Sigma_{l=1}^n A(i, l)B(l, j)$ 
+		- schedule ops by level
+		- We use  $n$ processors to compute $C_{i,j}$
+		- $C$ contains $n^2 C_{i,j}$ elements
+		- Total processors: $n^2\cdot n = n^3$ 
+			- executes in $O(\log n)$ time

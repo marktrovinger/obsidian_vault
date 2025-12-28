@@ -1,0 +1,17 @@
+# Pre-meeting
+- MARL papers:
+	- https://arxiv.org/abs/2103.01955 (PPO)
+	- https://arxiv.org/abs/2112.02845 (DT, trained by agent from other paper)
+- Questions:
+	- Simulator, what are we using? (Gazebo for Robot arm)
+	- Action/state space dimensions
+	- Reward structure
+-  Ideas:
+	- SF for dataset training, depending on environment
+	- MuJoCo jenga: https://github.com/j96w/MuJoCo_Unity_UR5/blob/master/Tools/Models/mjcf/jenga.xml
+- Dr. Chen's ideas:
+	- Start simple
+	- Action space in terms of end-effector
+	- Reward structure from paper he sent me
+- Robot Arms
+	- Kinobot

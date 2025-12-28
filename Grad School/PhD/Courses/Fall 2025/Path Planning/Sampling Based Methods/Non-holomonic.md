@@ -1,0 +1,5 @@
+- Holomonic is the kinematic restraints on a robot
+- So, a holomonic robot has zero non-holomonic contraints
+- So, a non-holomonic robot has at least one non-holomonic constraints
+- A non-holomonic kinematic constraint requires a differential relationship, so a derivative of the position variable would be an example
+- Non-integratable

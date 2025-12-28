@@ -1,0 +1,2 @@
+- 2021 paper
+- BIG, probably need to spend more time with this paper in order to fully grasp what is being discussed

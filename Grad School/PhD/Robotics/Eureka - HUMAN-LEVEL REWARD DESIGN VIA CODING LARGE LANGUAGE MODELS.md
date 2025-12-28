@@ -1,0 +1,9 @@
+- 2024 paper
+- Code: https://github.com/eureka-research/Eureka
+- generates reward function Python code from the env code and iterates on it
+	- improves parameter selection, among others
+- works with IsaacLab
+- Works only with DirectRL tasks, do any of the manipulation tasks, aside from hand, use the DirectRL workflow?
+- generation of novel rewards, possible on unseen envs?
+- curriculum learning is important, need to work on developing intuition for how curriculum learning works and how it improves performance
+- can be run on 4 V100 GPUs

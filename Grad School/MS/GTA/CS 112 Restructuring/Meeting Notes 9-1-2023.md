@@ -1,0 +1,6 @@
+- Interacting with the field, or software team for non-CS majors
+- Have 1-3 ideas ready for next week, things that might be more up-to-date
+	- Absolutely necessary, useful, supplementary
+- Does 112 need to be a lower level CS 160?
+	- Roughly half tend to be CS majors
+	- Most aren't taking it as a "warm-up" to 160

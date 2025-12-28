@@ -1,0 +1,10 @@
+- Mark Ward, Purdue mdw@purdue.edu
+- ~~Andy Perkins, MSU perkins@cse.msstate.edu
+- Eric Hansen, MSU hansen@cse.msstate.edu
+- ~~Jingdao Chen, MSU chenjingdao@cse.msstate.edu
+- Zhiqian Chen, MSU zchen@cse.msstate.edu
+- Cindy Bethel, MSU cbethel@nsf.gov
+- Tarek Elderini, UND tarek.elderini@UND.edu
+- Naima Kaabouch, naima.kaabouch@UND.edu
+- ~~Philip Huff, UA-Little Rock pdhuff@ualr.edu
+- ~~Mariofanna Milanova, UA-Little Rock mgmilanova@ualr.edu

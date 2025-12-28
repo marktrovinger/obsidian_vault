@@ -1,0 +1,2 @@
+- Did great!
+- Got everything done, residual Endometriosis which was cauterized, also on her colon, we might need to go a medical route if needed

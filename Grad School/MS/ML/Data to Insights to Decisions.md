@@ -1,0 +1,156 @@
+- Analytic solutions to specific business problems
+- Domain Concepts
+- Descriptive features
+- CRISP-DM (Cross Industry Standard Process for Data Mining) steps
+	- Business Understanding
+		- What is the business problem and what goals is the business trying to achieve?
+			- Can be hard to define
+			- Start with defining both the problem and goals in business terms, no need to involve analytics yet
+			- Don't hype chase!
+		- How does the business currently work?
+			- Situational fluency
+				- Understand enough to communicate with stakeholders
+				- Understand the quirks and nuances of the business
+		- How does a predictive analytics model help?
+			- For each possible solution
+				- What the predictive model is
+				- How it will be used
+				- How using it will solve the original business problem
+## Case Study 1
+### Business Understanding
+Motor insurance fraud detection
+- Claim Prediction
+	- How likely is a given claim to be fraudulent? Assign a score, and above a threshold triggers an investigation
+- Member Prediction
+	- How likely is a given member to commit fraudulent actions? Model could be run every quarter and action taken if a member's profile identifies a possibility of fraud. Actions taken can vary
+- Application Prediction
+	- How likely is it that an application will result in a fraudulent claim? Actions taken would be a denial of an application
+- Payment Prediction
+	- How likely is it that a requested amount is higher than the damages actually cost? While the company is paying less, time and resources need to be devoted
+### Feasibility
+Can we actually implement any of these ideas?
+- Ask the following questions:
+	- Do we have the data necessary to implement any of these ideas?
+		- If not, we can't do it!
+	- Can we use the solutions provided?
+- Also consider: 
+	- Key objects in data model, and availability
+	- Connections between keys and data model
+		- Can we connect the various data sources to collect necessary data for the analytics model?
+	- Data granularity
+		- We might have the necessary data, but is it in a granular enough form?
+	- Volume of data
+		- Both too big and too small are a problem
+	- Time Horizon
+		- Does data exist for the time period required?
+#### Application: Motor Insurance Fraud
+Using the questions above, lets apply those questions to the auto insurance case study.
+- Claim Prediction
+	- Data Reqs: a large amount of annotated data with relevant fields, such as target value, claimant info and details
+	- Capacity Reqs: A mechanism for marking some claims as more important than others, could cause delays in claim processing
+- Member Prediction
+	- Data Reqs: similar to claim prediction, but would require all relevant info be tied to a single member
+	- Capacity Reqs: can a system be run every quarter? Can the company even contact members if a problem arises, and is such contact legal?
+- Application Prediction
+	- Data Reqs: similar to above, but would also require application details are kept when they may not be, also data may need to stretch back decades
+	- Capacity Reqs: application assessment and approval would need to be more tied than currently
+- Payment Prediction
+	- Data Reqs: all payment, policy, and claim details would need to be stored, including amount requested and amount actually paid
+	- Capacity Reqs: Similar to member prediction, can this be done in a timely manner? Does there need to be a customer contact center?
+#### ABT (Analytics Base Table)
+- Data Preparation step of CRISP-DM
+	- Overlaps with Business Understanding
+	- Iterative process
+- ABT
+	- Basically a dataset
+	- descriptive features
+	- Target feature
+	- Different data sources go into an ABT, then fed to the predictive model
+	- What is the prediction subject?
+		- Depends on the question asked, for claim and payment prediction, the subject is the claim
+	  - Each row is one instance
+		  - "one-row-per-subject"
+			  - Example for auto insurance would be one row would be one claim or member, depending on the ABT
+	- Domain concepts
+		- Not an exhaustive list, the basic idea is an abstraction that describes something about the subject that a list of concrete features can be built from
+		- Prediction subject details
+		- Demographics
+		- Usage
+			- Frequency or recency, monetary value of customer interaction
+		- Usage changes
+			- Any change in usage, positive or negative
+		- Special Usage
+			- Anything considered special, could be contacting for a complaint
+		- Lifecycle Phase
+			- New, loyal or lapsed
+		- Network Links
+			- Connections between either customers or products
+	- Knowledge elicitation
+		- Asking people who know
+### ABT Application: Auto Insurance
+- ABT for the claim prediction
+- Domain concepts for this instance are policy details
+	- Subconcepts are a more fine grain version, subconcepts will lead to one or more descriptive features
+- Designing and Implementing Features
+	- Proxy features
+		- When direct measurement isn't possible
+	- Data Availability
+		- Do we have data from time periods necessary?
+	- Timing
+		- Is the data available when we want to use the model?
+	- Longevity
+		- Will the data be stale when we need to use it?
+			- Even if it is stale, we may be able to scale the data to extend usable lifespan
+	- Iterative process
+- Data Types
+	- Numeric
+	- Interval
+		- allow ordering and subtraction, but not other operations
+	- Textual
+		- Short text, name/address
+	- Ordinal
+		- Ordering but not arithmetic
+	- Categorical
+		- finite set that cannot be ordered and no math
+	- Binary
+	- Usually reduces to continuous and categorical
+		- Categorical has levels or domains
+- Feature Types
+	- Raw
+		- Come directly from data sources
+	- Derived
+		- Values computed from raw sources
+		- Aggregates
+			- Count, sum, average, min/max
+		- Flags
+			- Binary, presence or absence of a characteristic
+		- Ratios
+			- Captures a relationship between two or more features
+		- Mappings
+			- Converts continuous to categorical
+				- Example: salary from numeric to low, med, high
+		- Others
+			- Anything else, can be very creative
+- Time
+	- Propensity models
+		- How likely an event is to occur
+		- Observation period
+			- Descriptive features are calculated
+		- Outcome period
+			- Target features are calculated
+	- Next-best-offer-models
+		- Descriptive features are time-dependent but the target feature is not
+### Legal Issues
+Several legal issues are necessary to know in order to build predictive models legally
+- Anti-discrimination legislation
+- Data protection legislation
+	- Collection limitation principle
+	- Purpose specification principle
+	- Use limitation principle
+### Implementing Features
+- Data manipulation
+	- Implemented in and performed by:
+		- Database Management Systems
+		- Data Management Tools
+		- Data Manipulation Tools
+- Extract-transform-load (ETL) process 

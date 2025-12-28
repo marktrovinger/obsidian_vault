@@ -1,0 +1,14 @@
+11:36 AM
+- Witnessed the suspect vehicle, blue Ford Taurus driving aggressively on Dupont Road, Westbound
+- The vehicle appeared to be following a white van, Mopar
+- The white van turned onto Dawson's Creek, the blue Taurus followed, continuing to drive aggressively towards the white van
+- Both vehicles turned into the YMCA parking lot, the white van turned to the left and then turned right, getting into the dropoff line for summer camp
+- I parked my vehicle and witnessed the Taurus following the van into the dropoff line, at which point I exited my vehicle to observe the situation (I was parked near a black Tahoe, which turned out to be a police vehicle)
+- The Taurus was parked next to the van, with its hazard lights on, I observed a Black male driving, mid 30s, wearing what looked like a black (or dark colored) baseball hat, with a flat brim
+- I walked back towards my vehicle and the white van exited the dropoff line, and headed towards the exit, with the Taurus following very closely
+- I turned to head towards the Y entrance, and was near the door when I observed the van coming back into the parking lot near the building with the Taurus following very closely, driving aggressively again
+- I followed both vehicles and observed the white van parking in a spot at the edge of the parking lot, down from where my own vehicle was parked
+- The Taurus pulled into a spot near the van, but closer to the building
+- I continued walking towards both my vehicle and the white van, at which point I heard the blip and wail of a police siren and I observed the Taurus leaving its parking spot and heading towards the parking lot entrance right in front of me, with the black Tahoe in pursuit
+- I spoke to a woman who identified herself as a reporter, and we both went over to the white van, speaking with the driver, an Asian female
+- The driver indicated that she was ok, and did not require assistance, and told us that she didn't know the driver of the Taurus and when she told him that he could go in front of her at dropoff, he indicated that he didn't need to

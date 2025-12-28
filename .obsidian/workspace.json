@@ -4,47 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "eef0eee8acdfce5b",
+        "id": "1dd0e54b16a76688",
         "type": "tabs",
         "children": [
           {
-            "id": "1235888c8be9fa51",
+            "id": "2c6cedb70fa8ce5a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Grad School/Thesis/Decision Transformer/Sample Factory Notes.md",
+                "file": "Grad School/PhD/Research Journal/December 2025.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "December 2025"
             }
           },
           {
-            "id": "48bde152eaaa76af",
+            "id": "6418271d64d05af7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Grad School/Thesis/Decision Transformer/Meeting Notes.md",
+                "file": "Grad School/PhD/Robotics/Robust RL + Robotics/Robust Manipulators/Experiment Protocol.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "f8f3a6c29859d492",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grad School/NLP/Logistic Regression.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Experiment Protocol"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,8 +54,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -79,14 +73,26 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d91c49ccc2ffe93d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 312.5
   },
   "right": {
     "id": "e457826e5a8dbcb6",
@@ -102,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Grad School/Thesis/Decision Transformer/Meeting Notes.md",
+                "file": "Grad School/PhD/Courses/Fall 2025/Path Planning/Obstacle Avoidance - Virtual Field Force.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +116,23 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Obstacle Avoidance - Virtual Field Force"
+            }
+          },
+          {
+            "id": "5e8242615e1534a2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ]
@@ -122,6 +144,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -130,17 +153,45 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "48bde152eaaa76af",
+  "active": "2c6cedb70fa8ce5a",
   "lastOpenFiles": [
-    "Grad School/NLP/Logistic Regression.md",
-    "Grad School/Thesis/Decision Transformer/Meeting Notes.md",
-    "Grad School/Thesis/Decision Transformer/Sample Factory Notes.md",
-    "Grad School/GTA/Agenda - Lab Week 5.md",
-    "Grad School/Thesis/Decision Transformer/Analysis Notes.md",
-    "Grad School/NLP/Naive Bayes and Sentiment Classification.md",
-    "Grad School/GTA/Agenda - Lab Week 4.md",
-    "Grad School/NLP/n-grams.md",
-    "Grad School/GTA/Agenda - Lab Week 3.md",
-    "Grad School/NLP/Edit Distance.md"
+    "Grad School/PhD/Robotics/Robust RL + Robotics/Robust Manipulators/Experiment Protocol.md",
+    "Grad School/PhD/Research Journal/December 2025.md",
+    "Grad School/PhD/Robotics/Robust RL + Robotics/ROBUST GYMNASIUM - A UNIFIED MODULAR BENCHMARK FOR ROBUST REINFORCEMENT LEARNING.md",
+    "ROBUST GYMNASIUM.md",
+    "Grad School/PhD/Courses/Fall 2025/Final Project/Project Description and Requirements.md",
+    "Grad School/PhD/Courses/Fall 2025/Path Planning/Obstacle Avoidance - Virtual Field Force.md",
+    "Grad School/PhD/Robotics/Robust RL + Robotics/Time-Constrained Robust MDPs.md",
+    "Grad School/PhD/Robotics/Robust RL + Robotics/Robust Manipulators",
+    "Grad School/PhD/Courses/Spring 2026",
+    "Grad School/PhD/Courses/Fall 2025/Path Planning/Obstacle Avoidance - Vector Field Histogram.md",
+    "Grad School/MS/NLP 1",
+    "Grad School/PhD/Courses/Fall 2025/Final Project/Working Log.md",
+    "Grad School/PhD/Robotics/Robust RL + Robotics/Survey of Simulators for Aerial Robots An Overview and In-Depth Systematic Comparisons.md",
+    "Grad School/PhD/Robotics/Robust RL + Robotics/OMPO.md",
+    "Grad School/PhD/Courses/Fall 2025/Path Planning/Vector Field Histogram.md",
+    "Grad School/PhD/Robotics/Robust RL + Robotics/Reward Scale Robustness for Proximal Policy Optimization via DreamerV3 Tricks.md",
+    "Grad School/PhD/Courses/Fall 2025/Final Project",
+    "Grad School/PhD/Robotics/Robust RL + Robotics/Simple Noisy Environment Augmentation for Reinforcement Learning.md",
+    "Reinforcement Learning/Paper Reading/PPO.md",
+    "Grad School/PhD/Research Journal/October 2025.md",
+    "Grad School/PhD/Robotics/Robust RL + Robotics/Realistic simulation of robotic grasping tasks - review and application.md",
+    "Grad School/PhD/Courses/Spring 2025/TODOs - May 1 and 2.md",
+    "Grad School/PhD/Robotics/Robust RL + Robotics",
+    "Grad School/PhD/Courses/Fall 2025/Intelligent Complete Robot/Kinematics and Control.md",
+    "Grad School/PhD/Courses/Fall 2025/Intelligent Complete Robot/Bio-Inspired Robotics Intelligence.md",
+    "Grad School/PhD/Robotics/Robust Deep Reinforcement Learning against Adversarial Perturbations on State Observations.md",
+    "Grad School/PhD/Robotics/ATLA.md",
+    "Grad School/PhD/Courses/Fall 2025/Path Planning/Bug Algorithms.md",
+    "Grad School/PhD/Courses/Fall 2025/Path Planning/Potential Field Method.md",
+    "Grad School/PhD/Robotics/IsaacLab/RL Library Addition.md",
+    "Grad School/PhD/Robotics/IsaacLab",
+    "Grad School/PhD/Courses/Fall 2025/Path Planning/Voronoi Diagrams.md",
+    "Grad School/PhD/Courses/Fall 2025/Sensor Config",
+    "Grad School/PhD/Courses/Fall 2025/Path Planning/Untitled",
+    "Grad School/PhD/Courses/Fall 2025/Intelligent Complete Robot",
+    "Grad School/PhD/Book Chapter",
+    "Pasted image 20230828201111.png",
+    "Pasted image 20230531140734.png"
   ]
 }

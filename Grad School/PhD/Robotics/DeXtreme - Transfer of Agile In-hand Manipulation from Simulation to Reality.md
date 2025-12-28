@@ -1,0 +1,12 @@
+- 2023 paper
+- Code:
+	- https://github.com/isaac-sim/IsaacGymEnvs/tree/main/isaacgymenvs/tasks/dextreme
+- rl-games used, PPO
+- vectorized automatic domain randomization
+	- solving a Rubik's cube with Allegro Hand
+- Vision based policy
+	- Why are they used here, less so in other manipulation tasks?
+- Fewer successes in real-world testing than in sim
+- Well designed reward functions seems to be a big bottleneck for future, more complicated tasks
+- Random seeds greatly impact performance, even when ADR suggests it shouldn't?
+- Code is implemented as an IsaacGym task, will look at the migration guide to see if I can just use that for adding RL library to stack task

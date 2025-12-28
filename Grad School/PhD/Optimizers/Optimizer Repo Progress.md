@@ -1,0 +1,10 @@
+- Code rot was a big problem
+	- Updated to newer packages
+		- Gymnasium, Torch
+	- Read through the code for dataset generation TODO
+	- Fixed errors that have cropped up for updated packages
+		- torch leaf 
+		- tri_scale error
+- Code was present for Rosenbrock, but no experiments were done
+	- Did a Rosenbrock experiment in a similar way to the existing experiments
+		- Worked, but the results produced didn't look like the others

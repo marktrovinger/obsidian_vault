@@ -1,0 +1,42 @@
+Chapter 4
+
+## Decision Trees
+- Uses a tree structure to make a prediction
+- Entropy
+	- Measured in bits
+- Information Gain
+	- Measures the reduction of entropy when testing on a feature
+- Iterative Dichotomizer 3 (ID3) algorithm
+	- Builds a tree in a recursive, depth-first way
+	- Gini index
+		- Impurity measure
+- Predicting Continuous Targets
+	- Referred to as a regression tree
+	- Variance is used as the measure of impurity
+		- Weighted Variance can also be used
+	- Early Stopping makes sure that there are not extreme partitions of the data
+- Pruning
+	- Prevent overfitting
+	- Pre-and Post Pruning
+		- Early stopping is pre-pruning
+		- Post-pruning 
+			- Branches deemed to be overfitting are pruned
+			- Reduced error pruning
+- Model ensembles
+	- Bagging
+		- Bootstrapping aggregating
+			- Each model is trained on a random sample, where each sample is the same size as the data set, when sampling with replacement
+		- Subspace sampling
+			- Samples only a portion of the descriptive features
+		- Random Forests
+			- Combine decision trees, subspace sampling, and bagging
+			- Collection of weak learners, similar approach taken by
+	- Boosting
+		- New models pay more attention to misclassified samples from previous models
+		- Uses a weighted dataset
+		- Iteratively creates models and adds them to the ensemble, until a specified number
+		- A confidence factor $\alpha$ increases as the error $\epsilon$ decreases
+	- Gradient boosting
+		- A more aggressive version of boosting
+		- Directly correct errors in previous models
+		- Common to use decision stumps, very shallow tree

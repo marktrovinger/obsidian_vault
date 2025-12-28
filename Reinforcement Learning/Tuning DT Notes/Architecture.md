@@ -1,0 +1,13 @@
+- GPT-1 is the arch that underlies the DT, and it has a fixed number of parameters at 125M
+	- If we wanted to expand to GPT-2, this would be the logical time to do so
+	- Unsure of the engineering effort required to make this work, it looks like the basics are the same, the main difference is in the sampling, and scaling the temperature of the logits
+- The only "real" tuning we can do is to look at the following:
+	- https://wandb.ai/amogkam/transformers/reports/Hyperparameter-Optimization-for-HuggingFace-Transformers--VmlldzoyMTc2ODI
+	- Number of steps
+		- Currently, we are using DT's 500k, perhaps increasing from 500K->950K might have an impact?
+	- Batch size
+	- Learning rate
+	- Epochs
+	- Layers
+		- This was the only parameter of the model that made much of a difference, with 12-32 providing the best benefit
+			- I'm going to run an experiment with this on Wednesday, July 3

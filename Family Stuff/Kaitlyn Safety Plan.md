@@ -1,0 +1,9 @@
+- When George was feeling really mad and he thinks that Janice is controlling him
+- Does it sound like a different voice? Unsure
+- Didn't think he watched something that made him think that
+- Safety plan:
+	- Warning signs: having a bad day, talking about what is causing that, he feels that we are ignoring him, that they let Maria talk and we don't necessarily do that, he feels like he is going to throw up, same thing with flying
+	- Coping skills: mini-Gus, take him with us and nervous medicine, talking to Kaitlyn, watching YouTube videos, taking a bath, talking to Mom and Dad, spending time with kittens, doing laundry, spending time with Annette, train hunting
+	- House: replace light fixture in the hallway upstairs with the one from the rental (I think the fixture is in the attic)
+	- Move sharp objects to the cabinet he doesn't use
+	- Discussed reasons to stay alive

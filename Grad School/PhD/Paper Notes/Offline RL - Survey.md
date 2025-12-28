@@ -1,0 +1,53 @@
+- The policy used to collect the dataset is $\pi_{\beta}$ , while the policy trained using that data is known as $\pi_{off}$ which doesn't interact with the environment.
+
+# Problems
+- OOD or distributional shift; when the distribution of states in the dataset differs from the distribution of states seen in the environment, mistakes made tend to compound until the policy $\pi_{off}$ differs wildly from $\pi_{\beta}$. 
+
+# Approaches
+- Policy Constraints:
+	- modifies: learned policy
+	- by: probabilistic or support constraints
+	- requires: estimate of $\pi_{\beta}$ 
+	- Examples: [[BCQ]], [[BRACp]], [[FisherBRC]], [[BREMEN]], [[BEAR]], [[BRACv]], [[AWR]], [[AWAC]], [[Onestep RL]], [[IQL]], [[TD3+BC]], [[CRR]]
+- Importance Sampling:
+	- Policy gradient
+	- importance weights
+	- estimate of the product of the importance weights $w_{i:j}$ or the state-marginal ratio $\rho^{\pi}$
+	- Examples: [[DRIS]], [[AlgaeDICE]], [[GenDICE]], [[DualDICE]]
+- Regularization:
+	- $Q$-function or policy
+	- modified $Q$-function or policy training objective
+	- regularizer
+	- Examples: [[Conservative Q-Learning]], [[FisherBRC]], [[COMBO]], [[AlgaeDICE]], [[IQL]]
+- Uncertainty Estimation
+	- $Q$-function or model
+	- subtract an uncertainty
+	- model estimate or define an uncertainty metric
+	- Examples: [[WIS]]
+- Model Based
+	- reward function
+	- subtract an uncertainty
+	- uncertainty metric
+	- Examples: [[COMBO]], [[MOPO]], [[MOReL]], [[BREMEN]]
+- OneStep RL
+	- number of steps
+	- policy eval operator
+	- policy eval operator dynamic programming
+	- Examples: [[Onestep RL]], [[IQL]]
+- Imitation Learning:
+	- training data
+	- filter out bad behaviors or learn conditional policy
+	- filter to select good behaviors or outcomes to condition policy
+	- Examples: [[TD3+BC]], [[BAIL]], [[CRR]], [[ABM+MPO]], [[RVS]]
+- Trajectory Optimization:
+	- trajectory distribution
+	- estimate entire trajectories
+	- policy search mechanism
+	- Examples: [[Decision Transformer]], [[Trajectory Transformer]]
+# Open Problems
+- [[Hyperparameter Tuning]]
+- [[Off Policy Evaluation]]
+- [[Incremental RL]]
+- [[Safety Critical RL]]
+- [[Datasets for Offline RL]]
+- [[Early Stopping for RL Algorithms]]

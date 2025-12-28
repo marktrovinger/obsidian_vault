@@ -1,0 +1,6 @@
+- Different simulators examined with different goals
+- IsaacSim has an AerialSim, not sure if that is the same that is in IsaacLab or not
+- Can AirSim do parallel simulations
+- PyFlt for DRL focused approaches https://github.com/jjshoots/PyFlyt
+- QuadSwarm may also be a possibility https://github.com/Zhehui-Huang/quad-swarm-rl
+- May not be a valuable avenue of research at this time

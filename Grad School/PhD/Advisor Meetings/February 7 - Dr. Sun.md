@@ -1,0 +1,10 @@
+- divide tasks, divide 
+- feedback to each agent to task to perform
+- RL+HF
+	- Open problems and fundamental limitations of reinforcement learning from human feedback
+	- Training a helpful and harmless assistant with reinforcement learning from human feedback
+	- Generalize single agent case to multi agent
+	- Summary of the current status of single agent case
+		- Challenges of those moving forward
+		- 
+- Foundation models?

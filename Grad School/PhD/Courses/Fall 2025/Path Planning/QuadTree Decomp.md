@@ -1,0 +1,14 @@
+- A form of [[Cell Decomp]]
+- Split space into 4 recursively, testing for homogeneity
+- Each internal node has four children
+	- Empty
+		- No obstacle
+	- Mixed
+		- Combination of free and obstacle
+		- These nodes are expanded
+	- Full
+		- Just obstacle
+- apply tree search algorithms to tree structure
+- can be stored in an array, similar to binary tree
+- decompose mixed cells until a sequence of free cells from start to goal is found
+- creates a more reasonable trajectory

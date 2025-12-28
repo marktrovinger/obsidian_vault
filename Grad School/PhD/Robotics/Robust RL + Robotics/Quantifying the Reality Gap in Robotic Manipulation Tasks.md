@@ -1,0 +1,8 @@
+- 2018 paper
+- Compares 3 sims to a real world Kinova Mico2, 6DOF and KG3 gripper
+- No physics engine is perfect
+	- Some are better at non-complex geometries than others
+	- Friction is tough!
+- Each of them required some tweaking in order to be stable
+- Euclidean distance from target, none were perfect
+- Update to this paper?

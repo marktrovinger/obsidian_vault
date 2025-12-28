@@ -1,0 +1,17 @@
+- 2020 paper
+- Manipulation Benchmark
+	- Components
+		- Dataset of motion capture tasks
+		- Definition of tasks for the simulator
+		- Metrics for sim <-> real
+- Uses YCB protocol template
+- Adds the following error metrics:
+	- Euclidean Distance Error (used in [[Quantifying the Reality Gap in Robotic Manipulation Tasks]])
+	- Inner product of unit Quarternion Error
+	- Pose error
+	- Velocity Max, Average Error
+	- Acceleration/Deceleration Max, Average Error
+	- Motor Torque Min, Max Error
+	- Contact Force and contact moment Max and Error
+	- Moving time
+	- Dist Comp translate/rotate

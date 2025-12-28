@@ -1,0 +1,24 @@
+- Rapidly-expanding Random Tree
+	- efficient search of non-convex high-dimensional space
+	- randomly builds a tree that fills the space
+	- grows towards the unsearched area
+- graphs are the preferred data structure, due to the ability to search and traverse [[Graph Algorithms and Quiz Prep]]
+- feasible paths, but not necessarily the optimal or best path
+- Can easily handle [[Non-holomonic]] and kinodynamic problems
+- Searched using Monte Carlo
+- Fills up the space in a recursive or fractal manner
+- Doesn't perform well in narrow passage problems
+	- Why not? (Speculation) The step length and random sampling might mean that the algorithm will "bounce around" a lot in a narrow space, which can lead to obstacle collision issues? 
+- RRT builds a tree, but [[Probabilistic Roadmaps]] build graph structures
+- Selecting an optimal step-length is a challenge
+	- (Speculation) A heuristic that can adjust the step-length, so that earlier in the search space the step-length is greater but shrinks as the tree gets closer to the objective, similar to how learning rate scheduling works?
+- Pseudocode for RRT:
+	- `build_rrt` function
+	- `extend` function
+- RRT* is an optimal version of RRT
+- Used in piano mover algos (?) and also in robotic arm movement
+- Builds towards the goal
+- Bidirectional, one tree starts at the initial node, other tree starts at goal
+	- The farthest point out from the goal tree becomes the goal node for the tree that starts at the initial point, once the two are connected, that path is then refined
+- Refinement is when the path is smoothed/optimized
+- RRT* "rewires" as it finds new shortest paths

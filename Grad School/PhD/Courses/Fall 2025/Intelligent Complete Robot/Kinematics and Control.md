@@ -1,0 +1,8 @@
+- Rolling and sliding for wheeled ground robot with wheel contact points
+- Position depends on path, errors over time
+- Differential drive mobile robots
+- [[Non-holomonic]] systems
+- Differential drive robot is [[Non-holomonic]]
+- We use IK
+- Robot pose estimation
+- Wheel kinematics problem

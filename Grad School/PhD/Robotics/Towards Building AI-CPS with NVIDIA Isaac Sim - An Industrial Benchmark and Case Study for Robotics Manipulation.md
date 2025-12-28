@@ -1,0 +1,12 @@
+- 2023 paper
+- Urgent need for benchmarks, especially for industrial robotics
+- Cyber-physical system
+- (speculation) The environments used are state based, not vision based
+- Surveys of researchers that use simulators
+- Falsification for defect detection
+	- How effective is falsification?
+- Comparison w/ other simulators
+	- Sim2Real is roughly identical
+	- Lack of pipeline for DRL tasks, which matches my experience from earlier this year, this may have changed though
+- Robustness as an eval metric
+- Large parallel experiments 

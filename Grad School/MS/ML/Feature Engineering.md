@@ -1,0 +1,23 @@
+- More descriptive features makes for a better model, but the law of diminishing returns does kick in
+- Sampling Density
+	- Average density of instances across a feature space
+	- Measured by average density of unit hypercube
+		- $density = k^{\frac{1}{m}}$, where $k$ is the number of instances, and $m$ is the number of dimensions
+- Curse of dimensionality
+	- More dimensions, lower density
+- Feature Selection
+	- Predictive
+		- Useful for predicting the target value
+	- Interacting
+		- Not good on its own, but can be combined to create a useful feature
+	- Redundant
+		- High corr with another feature
+	- Irrelevant
+	- Strategies
+		- Rank and Prune
+			- Use of filters to remove irrelevant features
+			- Information gain is a possible filter
+			- Greedy local search
+				- Generates a set of candidate feature subsets, and then selects from that set, according to a termination condition
+		- Forward sequential selection
+		- Backward sequential selection

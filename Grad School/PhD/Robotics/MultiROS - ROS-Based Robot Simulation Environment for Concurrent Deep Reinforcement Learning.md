@@ -1,0 +1,13 @@
+- 2022 paper
+- Supports parallel training
+- Also references Robosuite
+- Multiple environments w/ various robots
+- Creating custom envs:
+	- GazeboEnv
+	- RobotEnv
+	- TaskEnv
+	- Similar to PandaGym for structure
+- Three prebuilt tasks for each robot type
+- ODE of physics, mentions the use of domain randomization techniques using different physics engines, need to examine this!
+- How many parallel envs can be created?
+- How does this compare to [[Towards Building AI-CPS with NVIDIA Isaac Sim - An Industrial Benchmark and Case Study for Robotics Manipulation]]

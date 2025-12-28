@@ -1,0 +1,11 @@
+- Case study paper in training robots (primarily) in the real world, from an RL perspective
+- Talked alot about QT-Opt
+- ML-> robotics is tough
+- Approaches taken (RL)
+- More accurate simulators
+- [[Horizon Reduction Makes RL Scalable]], horizon is mentioned as a problem and techniques are mentioned
+- Reward shaping for manip tasks, problems with sim2real
+- Experiment design/setup requires a great deal of thought, but can be overlooked
+- Latency breaks MDP
+- Rewards in the real world may differ from those in simulation
+- Safe learning could also be a problem in simulation

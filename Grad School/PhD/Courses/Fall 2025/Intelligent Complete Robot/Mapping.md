@@ -1,0 +1,10 @@
+- Used for localization
+	- cartography and vision
+- What are the sensors seeing? 
+	- Based on position and measurement
+- Models error by probability distribution
+- Building a map -> mapping algorithms
+- Need to maintain a map of the environment
+- Mapping <- Position predict <- position update
+- Odometry estimates position over time, relative to a starting location
+	- Sensitive to errors

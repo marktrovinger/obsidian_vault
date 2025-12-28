@@ -1,0 +1,17 @@
+- 2020 paper
+- Industrial settings
+- Reality gap
+	- replication of real-world envs
+- Complexity
+- Lack capabilities
+- Reproducibility
+- Scenario construction
+	- Now draw the rest of the fucking owl
+- Resource costs
+	- Compute, hardware
+- Automation features
+	- Running headless is a real challenge (why?!)
+- CI
+- Sim reliability
+- Stable Interface
+- Parallel sims for Robomaker only, pre-dates the release of IsaacSim

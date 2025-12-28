@@ -1,0 +1,7 @@
+- related to [[Cell Decomp]]
+- Method: Delauanay Triangulation, make triangles between cells?
+- Use Manhattan or Euclidean distance
+- Lines are equidistant from C-space obstacle
+- Combination of VD and DT
+- graph with the goal of maximizing distance from obstacles
+- path found using search algo, such as [[Floyd's Algorithm]]

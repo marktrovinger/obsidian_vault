@@ -1,0 +1,1 @@
+- Basic idea: take the best action at this moment, don't consider the overall best, can optimize for the local minima instead of the global

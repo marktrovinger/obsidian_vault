@@ -1,0 +1,20 @@
+### Components
+- selection
+- analysis 
+- interface design
+- integration
+- testing
+- considerations
+	- signal connection
+	- power
+- Botzilla
+	- vision based obstacles
+	- Kalman filter
+	- FPGA for fast sensor data processing
+	- ROS 
+	- Real time
+- V-Module
+	- concept -> requirements -> design -> implementation 
+	- Then it goes back up
+	- integration -> testing -> eval
+- RS232 serial for communication

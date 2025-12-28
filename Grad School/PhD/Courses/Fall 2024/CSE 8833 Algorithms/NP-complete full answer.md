@@ -1,0 +1,16 @@
+# How to prove that a problem is NP-complete?
+- Prove that it is in the class NP
+	- describe a nondeterministic polynomial algorithm for solving it
+		- Nondeterministic step:
+			- Guess the solution from a finite (but large) set of possibilities
+				- know as a certificate or witness
+		- Deterministic step:
+			- verify that the cert is correct (or not) by running a polynomial time deterministic algo
+- Prove that it is NP hard
+	- from scratch
+	- reduce it in polynomial time to the problem we want to show is NP-hard
+		- if P is polynomial-time reducible to Q, then P is "no harder to solve" than Q
+		- Using reductions:
+			- if P is polynomial-time reducible to Q, we say $P \leq_{p} Q$ 
+			- if P is NP-hard and $P \leq_{p} Q$, then Q is also NP-hard
+			- if $Q \in NP$ and Q is NP-hard, then Q is NP-complete

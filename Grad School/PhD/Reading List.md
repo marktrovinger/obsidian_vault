@@ -1,0 +1,6 @@
+- An Open-Loop Baseline for Reinforcement Learning Locomotion Tasks
+- Don’t Change the Algorithm, Change the Data: Exploratory Data for Offline Reinforcement Learning
+- End to End Learning for Self-Driving Cars (maybe)
+- URDFormer: A Pipeline for Constructing Articulated Simulation Environments from Real-World Images
+- Visual Foresight: Model-Based Deep Reinforcement Learning for Vision-Based Robotic Control
+- 

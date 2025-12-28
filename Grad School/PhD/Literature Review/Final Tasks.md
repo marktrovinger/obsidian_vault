@@ -1,0 +1,9 @@
+- ~~TAMER paper
+- ~~RLHF Robotics
+- ~~QT-Opt
+- ~~Atari HF papers
+- ~~MARL Atari papers
+- ~~Check word count for abstract
+- ~~Plagiarism detector before submission
+- ~~Search terms added to table, fix table
+- Submit!

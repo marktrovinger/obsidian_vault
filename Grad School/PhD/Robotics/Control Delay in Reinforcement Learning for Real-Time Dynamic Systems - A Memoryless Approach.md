@@ -1,0 +1,8 @@
+- 2010 paper
+- dSARSA($\lambda$)
+- Control delay is caused by both delayed obs and actuation, this work only focuses on constant delay
+- $\tau_d = \frac{T_d}{h}$ , $T_d$ is the absolute delay, $h$ is the sampling period
+- An action take in $s_t$ isn't $a_t$, but rather $a_t - \tau_d$ 
+- Update $Q(s_t, \hat{a_t})$ instead of the normal $Q(s_t, a_t)$, where $\hat{a_t}$ is the effective action for state $s_t$
+- Not used in an actual environment!
+- No code!

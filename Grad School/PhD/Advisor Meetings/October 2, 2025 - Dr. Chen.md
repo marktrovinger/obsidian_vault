@@ -1,0 +1,15 @@
+### Potential Action Items
+- Visual data from cameras to reduce sim2real gap? What simulators are capable of using camera data, since most are state-based?
+	- Not used as much in manipulation tasks, as the envs in [[Towards Building AI-CPS with NVIDIA Isaac Sim - An Industrial Benchmark and Case Study for Robotics Manipulation]] used environments with state-based observations
+	- Used quite a bit in ADS systems, look at CARLA, or if IsaacSim has ADS envs
+- Value of robotic manipulators in game engines, such as UE5?
+	- Investigate this!
+- Workshop and other links:
+	- https://sim2real.github.io/
+	- http://sim2real.net/
+	- Potential action item, longer term: a submission that performs well here would be a boon!
+- Continue working on fundamental skills, read papers with an eye towards finding gaps, in either results or approaches
+- Follow up papers from [[Quantifying the Reality Gap in Robotic Manipulation Tasks]], look at author's Google scholar and papers that reference it
+- Find additional sim2real gap papers
+- Work on fundamental skills with simulators! Expertise in IsaacSim might be valuable, look at which companies are using it and have open jobs!
+- Relationship between DRL and compute speed? [[Horizon Reduction Makes RL Scalable]] mentions latency in robotics as an issue with non-Markovianness

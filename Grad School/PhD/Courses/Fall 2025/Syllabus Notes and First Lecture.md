@@ -1,0 +1,3 @@
+- ML for robotics
+- Both textbooks are required
+- Assignments posted in announcements first

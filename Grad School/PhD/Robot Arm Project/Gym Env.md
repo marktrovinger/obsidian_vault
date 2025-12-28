@@ -1,0 +1,13 @@
+- Task Environment
+	- defines a task for the robot to solve
+	- needed functions:
+		- `_set_action()`
+		- `_get_obs()`
+		- `_is_done()`
+		- `_compute_reward()`
+		- `_set_init_pose()`
+		- `_init_env_variables()`
+- Robot Environment
+	- handles all systems (ROS topics, Publishers, etc)
+	- sensor data
+	- way the robot moves

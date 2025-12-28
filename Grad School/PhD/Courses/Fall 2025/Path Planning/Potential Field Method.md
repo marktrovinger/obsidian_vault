@@ -1,0 +1,8 @@
+- discussed in AI Robotics
+- scalar function over free space
+- force proportional to negative gradient of the field
+- obstacles have negative force and the goal has positive force
+- problem with local minima
+- best when the global minima is at the goal point
+- grows to infinity near obstacles
+- smooth

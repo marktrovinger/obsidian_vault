@@ -1,0 +1,5 @@
+- sample from a uniform distribution
+	- vary the parameters
+	- use Adam to solve the problem
+		- use that to train DT
+		- keep the dimensions the same

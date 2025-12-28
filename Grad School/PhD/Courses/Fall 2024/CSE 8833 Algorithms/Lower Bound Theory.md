@@ -1,0 +1,23 @@
+## Overall Idea
+- set of techniques to determine good lower-bound estimates for worst and average case
+- Order Optimal Algos
+	- Simple counting args
+		- a certain amount of minimal work must be done in order to correctly output a solution
+		- Eg. Comparison algorithm must do at least $n-1$ comparisons for a given input $n$
+	- Enum args
+		- more complicated than simple counting
+		- id a combinatorial or numeric entity associated with inputs of $n$
+		- the average complexity bounded below by the average number of combinatorial entities
+	- Decision Trees
+		- hierarchy of all possible branchings
+		- determining the worst case involves determining the minimum depth of the tree
+		- minimum leaf path is used for the average complexity
+	- Adversary args
+		- force an algorithm to perform basic operations in order to determine the lower bound
+		- Eg, a guessing game
+	- Information theoretic
+		- compute the limitations of the amount of information that can be gained by a basic operation and showing how much more is needed to solve the problem
+	- Graph theoretic
+		- lower bounds for parallel algorithms
+	- Lower bounds for parallel algorithms
+		- must state number of PE and arch used along with comparisons, arithmetic ops

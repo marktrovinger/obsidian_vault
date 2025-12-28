@@ -1,0 +1,9 @@
+- another form of [[Cell Decomp]]
+- critical events
+- planar sweep
+- assumes a polygonal world
+- Use graph search method to find the shortest path, $A^*$ or $D^*$ 
+- C-space is the configuration space
+- robot location is $W$
+- $C_{free} = C | C_{obs}$ are free spaces
+- $A = A(q)$ is the robot's location

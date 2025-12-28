@@ -1,0 +1,12 @@
+- Divide and Conquer slide deck
+- Quiz Next Wednesday @ 5 PM
+	- Graph algorithms, Prim's and Kruskal
+	- BFS
+	- DFS
+	- MST
+	- Dijkstra's
+	- Complexity of search for graphs
+- Strassen's Algorithm
+- Convex Hull
+	- Chapter 33 in Algorithms
+	- She doesn't name the method, but I think it is Graham-Scan, it's not, Graham-Scan is not based on divide and conquer, neither is Jarvis March

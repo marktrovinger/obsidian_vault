@@ -1,0 +1,11 @@
+# Workstation
+- Given that I don't want to mess up my ROS install on my desktop, it makes sense to use the workstation, but I need it to have screens, so I need to move it back under my desk
+	- TODO (hardware):
+		- Get the KVM and cables out of storage and find a place to put it on my desk
+		- Setup the workstation under the desk, using the bracket from the desk
+		- Set the screen resolution to 2560x1440 and see if that makes it more usable and less sluggish and check refresh rate 
+	- TODO (software):
+		- Remove ROS Iron or whatever I have installed
+		- Install ROS Noetic 
+		- Install ROS Kortex
+		- Test simulator
